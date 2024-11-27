@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochwelt</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&family=Viga&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="contactFormContainer">
+        <form id="form" action="/submit" method="post">
+            <p id="formHeader">Kontaktiere uns</p>
+            <label for="name">Dein Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Deine E-Mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="nachricht">Deine Nachricht:</label><br>
+            <textarea id="textArea" name="nachricht" rows="8" cols="50" required></textarea><br><br>
+            <div id="formButtonContainer">
+                <button id="buttons" type="submit" value="Absenden">Abschicken</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+#Verbieten aller rechtlichen Seiten
+
+User-agent: *
+
+Disallow: /img
+Disallow: /Downloads
+Disallow: /BU
+
+Disallow: /impressumg.html
+Disallow: /datenschutz.html
