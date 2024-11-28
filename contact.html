@@ -9,19 +9,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&family=Viga&display=swap"rel="stylesheet">
-        
+    <link
+        href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&family=Viga&display=swap"
+        rel="stylesheet">
+
 
 </head>
 
 <body>
     <div class="headerContainer">
+
         <div class="headerLogoContainer">
             <img id="logoKochwelt" src="./assets/img/logo.png" alt="Logo von Kochwelt">
         </div>
         <div class="headerLinksMainContainer">
             <div class="headerLinksContainer">
-                <button id="menuToggleButton" onclick="toggleMenu('sideMenu')">...</button>
+                <button id="menuToggleButton" onclick="toggleMenu()">...</button>
                 <a href="./index.html">Start</a>
                 <a href="">Rezept des Tages</a>
                 <a href="./Fertig/contact.html">Kontakt</a>
@@ -32,7 +35,7 @@
 
 
 
-    <nav id="sideMenu" class="sideMenuClass">
+    <nav id="sideMenu" class="sideMenuShow sideMenuHide">
         <ul>
             <li><a href="#">Start</a></li>
             <li><a href="#">Rezept des Tages</a></li>
@@ -60,7 +63,7 @@
             </div>
         </form>
     </div>
-  
+
 </body>
 
 </html>

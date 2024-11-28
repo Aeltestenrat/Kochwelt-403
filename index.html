@@ -17,18 +17,32 @@
 
 <body>
     <div class="headerContainer">
+
         <div class="headerLogoContainer">
-            <img id="logoKochwelt" src="./img/logo.png" alt="">
+            <img id="logoKochwelt" src="./assets/img/logo.png" alt="Logo von Kochwelt">
         </div>
-        <nav class="headerLinksMainContainer">
+        <div class="headerLinksMainContainer">
             <div class="headerLinksContainer">
+                <button id="menuToggleButton" onclick="toggleMenu()">...</button>
                 <a href="./index.html">Start</a>
                 <a href="">Rezept des Tages</a>
                 <a href="./Fertig/contact.html">Kontakt</a>
                 <a href="./impressum.html">Impressum</a>
-            </nav>
+            </div>
         </div>
     </div>
+
+
+
+    <nav id="sideMenu" class="sideMenuShow sideMenuHide">
+        <ul>
+            <li><a href="#">Start</a></li>
+            <li><a href="#">Rezept des Tages</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Impressum</a></li>
+        </ul>
+    </nav>
 </body>
 
 </html>
+<script src="./index.js"></script>
