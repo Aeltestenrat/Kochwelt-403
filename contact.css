@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
@@ -153,7 +153,7 @@ body {
   display: flex;
   justify-content: center;
   max-width: 400px;
-  height: 450px;
+  height: 460px;
   background-color: #DCDCDC;
   border-radius: 10px;
   margin: 150px 0 0 0;
@@ -200,7 +200,7 @@ body {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  
 }
 
 #buttons {
@@ -211,4 +211,8 @@ body {
   font-size: 12px;
   padding: 5px 30px;
   cursor: pointer;
+}
+
+#buttons:active{
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
