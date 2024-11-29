@@ -1,19 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kochwelt</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Impressum</title>
+    <link rel="stylesheet" href="impressum.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
 
 </head>
+
 <body>
-    Created my free logo at <a href="https://logomakr.com" target="_blank">LogoMakr.com</a>
+    <div class="headerContainer">
+
+        <div class="headerLogoContainer">
+            <img id="logoKochwelt" src="./assets/img/logo.png" alt="Logo von Kochwelt">
+        </div>
+        <div class="headerLinksMainContainer">
+            <div class="headerLinksContainer">
+                <button id="menuToggleButton" onclick="toggleMenu()">...</button>
+                <a href="./index.html">Start</a>
+                <a href="">Rezept des Tages</a>
+                <a href="./contact.html">Kontakt</a>
+                <a href="./impressum.html">Impressum</a>
+            </div>
+        </div>
+    </div>
 
 
 
-The icons are provided by <a href="https://fontawesome.com/" rel="nofollow" target="_blank">FontAwesome</a> unter the <a href="https://fontawesome.com/license" target="_blank" rel="nofollow">Creative Commons Attribution 4.0 International license</a>.
+    <nav id="sideMenu" class="sideMenuShow sideMenuHide">
+        <ul>
+            <li><a href="./index.html">Start</a></li>
+            <li><a href="#">Rezept des Tages</a></li>
+            <li><a href="./contact.html">Kontakt</a></li>
+            <li><a href="./impressum.html">Impressum</a></li>
+        </ul>
+    </nav>
+    <div id='generator_results'>
+        <div id='generator_results_content'>
+            <h1>Impressum</h1>
+            <h2>Verantwortliche(r)</h2>
+            <p class='generator_user_input'>Marco Rößler</p>
+            <h3>Postanschrift</h3>
+            <p class='generator_user_input'>Gassenweg 1, 10101 Denksdiraus</p>
+            <h3>Kontakt</h3>
+            <p>E-Mail: mail@mail.net</p>
+            <p>Telefon: 01701111111</p>
+            <h2>Hinweise zur Website</h2>
+            <h3>Urheberrechtliche Hinweise</h3>
+            <p class='generator_user_input'>https://pixabay.com/</p>
+            <h3>Verantwortlich für journalistisch-redaktionelle Inhalte</h3>
+            <p class='generator_user_input'>[Bitte Informationen ergänzen]</p>
+            <p><em>Dieses Impressum wurde mit Hilfe des <br> <a href="https://www.activemind.de/generatoren/impressum/"
+                        target="_blank" rel="noopener">Impressums-Generators der activeMind AG</a> erstellt (Version
+                    2024-07-05).</em></p>
+
+            <p>Created my free logo at <a href="https://logomakr.com" target="_blank">LogoMakr.com</a>
+
+
+
+                The icons are provided by <a href="https://fontawesome.com/" rel="nofollow"
+                    target="_blank">FontAwesome</a>
+                unter the <a href="https://fontawesome.com/license" target="_blank" rel="nofollow">Creative Commons
+                    Attribution
+                    4.0 International license</a>.
+            </p>
+        </div>
+    </div>
+
 
 </body>
+
 </html>
+<script src="./impressum.js"></script>

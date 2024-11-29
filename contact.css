@@ -1,8 +1,11 @@
 html {
   scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden;
 }
 
 body {
+  position: relative;
   overflow-x: hidden;
   width: 100%;
   display: flex;
@@ -54,7 +57,7 @@ body {
 .headerLinksContainer {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   gap: 20px;
 }
@@ -89,7 +92,7 @@ body {
   position: absolute;
   top: 100px;
   right: 0px;
-  width: 150px;
+  width: 138px;
   border-radius: 10px;
   line-height: 24px;
   height: auto;
@@ -129,9 +132,6 @@ body {
     display: block;
   }
 
-  /* #sideMenu{
-  display :none ;
-  } */
 }
 
 @media (min-width: 701px) {
@@ -156,7 +156,7 @@ body {
   height: 450px;
   background-color: #DCDCDC;
   border-radius: 10px;
-  margin: 200px 0 0 0;
+  margin: 150px 0 0 0;
 }
 
 #form {
