@@ -15,7 +15,7 @@ input.value = (originalValue * portions2).toFixed(1);
 }
 
 function equalIngredients() {
-    const portions = parseFloat(document.getElementById('portionSelect').value); //vorher 'input
+    const portions = parseFloat(document.getElementById('portionSelect').value);
 
     
     const ingredientNeeded = document.querySelectorAll('.inputNeededGrey, .inputNeededWhite');
