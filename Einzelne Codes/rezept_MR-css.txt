@@ -1,0 +1,208 @@
+#buttons {
+  border: none;
+  background-color: #008001;
+  color: white;
+  font-size: 12px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+.receptContainer {
+  width: 80%;
+  padding: 100px 200px;
+}
+
+h1 {
+  padding: 0;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+#imgFood {
+  background-image: url('./assets/img/haehnchenpfanne-und-gemuese-auf-holztisch.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  min-height: 100px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#iconsContainer {
+  width: 100%;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  height: 15px;
+  width: auto;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background-color: rgb(228, 230, 231);
+  margin-top: 20px;
+}
+
+.icons img {
+  height: 12px;
+  width: auto;
+}
+
+#borderLine {
+  height: 2px;
+  width: 100%;
+  background-color: rgb(228, 230, 231);
+  margin-bottom: 20px;
+}
+
+.labelMainContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.labelContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#input {
+  width: 60px;
+  margin: 0;
+  border: solid 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-color: rgb(228, 230, 231);
+  padding: 5px 30px 5px 30px;
+  font-size: 12px;
+}
+
+#portionSelect {
+  width: 97px;
+  margin: 0;
+  border: solid 1px;
+  border-color: rgb(228, 230, 231);
+  padding: 5px 30px 4px 30px;
+  font-size: 12px;
+}
+
+.inputNeededGrey{
+  border: none;
+  width: 70px;
+  background-color: rgb(228, 230, 231);
+  display :flex ;
+  justify-content:center ;
+  text-align :left ;
+}
+
+.inputNeededWhite{
+  border:none;
+  width: 70px;
+  display :flex ;
+  justify-content:center ;
+  text-align :left ;
+}
+
+#buttonPortion {
+  margin: 0;
+  border-left: solid 1px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: rgb(228, 230, 231);
+  padding: 5px 30px;
+  font-size: 12px;
+  padding-block: 6px;
+  padding-inline: 22px;
+  border: none;
+  background-color: #008001;
+  cursor: pointer;
+  color: white;
+}
+
+#buttonPortion:active{
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#buttonPortion2 {
+  margin: 0;
+  border-left: solid 1px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: rgb(228, 230, 231);
+  padding: 5px 30px;
+  font-size: 12px;
+  padding-block: 6px;
+  padding-inline: 22px;
+  border: none;
+  background-color: #008001;
+  cursor: pointer;
+  color: white;
+}
+
+.ingredientsGrey {
+  display: flex;
+  align-items: center;
+  background-color: rgb(228, 230, 231);
+  border-radius: 10px;
+  height: 60px;
+  width: auto;
+  padding-left: 30px;
+}
+
+.ingredientsWhite {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: auto;
+  padding-left: 30px;
+}
+
+#accessoriesContainer{
+  display: flex;
+  width: 100%;
+}
+
+.accessories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  height: 15px;
+  width: auto;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background-color: rgb(228, 230, 231);
+  margin-top: 20px;
+}
+
+.accessories img {
+  height: 12px;
+  width: auto;
+}
+
+.preparation{
+  display: flex;
+
+}
+
+.creatorNameContainer{
+display: flex;
+align-items: center;
+gap: 40px;
+}
+
+.creatorNameContainer img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.creatorNameContainer p{
+  font-size: 22px;
+}

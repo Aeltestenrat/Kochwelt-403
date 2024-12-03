@@ -1,0 +1,99 @@
+@media (max-width: 420px){
+#iconsContainer{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.headerLinksContainer a {
+  display: none;
+}
+
+#menuToggleButton {
+  display: block;
+}
+.labelMainContainer{
+  display: flex;
+  align-items: flex-start;
+}
+
+.labelContainer{
+  flex-direction: column;
+}
+
+body{
+  font-size: 12px;
+}
+
+h1{
+  font-size: 18px;
+  text-align: center;
+}
+
+  #input{
+  display: none;
+}
+
+#buttonPortion2{
+  display: none;
+}
+
+.portionSelectWidth{
+  width: 96px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+}
+
+@media (max-width: 768px) {
+  .headerLinksContainer a {
+    display: none;
+  }
+
+  #menuToggleButton {
+    display: block;
+  }
+
+  body{
+    font-size: 14px;
+  }
+
+  h1{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #accessoriesContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #input{
+  display: none;
+}
+
+#buttonPortion2 {
+  display: none;
+}
+
+}
+
+@media (min-width: 769px) {
+  #sideMenu {
+    display: none;
+  }
+
+  #menuToggleButton {
+    display: none;
+  }
+
+#portionSelect{
+  display: none;
+}
+
+#buttonPortion {
+  display: none;
+}
+
+}
