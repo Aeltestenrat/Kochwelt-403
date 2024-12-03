@@ -12,7 +12,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
@@ -93,7 +93,7 @@ html {
     right: 0px;
     width: 138px;
     border-radius: 10px;
-    line-height: 24px;
+    line-height: 20px;
     height: auto;
     padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.4);
@@ -122,7 +122,7 @@ html {
     border-color: #008001;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     .headerLinksContainer a {
       display: none;
     }
@@ -133,7 +133,7 @@ html {
   
   }
   
-  @media (min-width: 701px) {
+  @media (min-width: 769px) {
     #sideMenu {
       display: none;
     }
@@ -154,7 +154,7 @@ html {
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-    margin: 150px 30px;
+    margin: 100px 30px;
     
   }
   #text{

@@ -95,7 +95,7 @@ body {
   right: 0px;
   width: 138px;
   border-radius: 10px;
-  line-height: 24px;
+  line-height: 20px;
   height: auto;
   padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.4);
@@ -154,9 +154,23 @@ h1{
   text-align: center;
 }
 
+  #input{
+  display: none;
 }
 
-@media (max-width: 700px) {
+#buttonPortion2{
+  display: none;
+}
+
+.portionSelectWidth{
+  width: 96px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+}
+
+@media (max-width: 768px) {
   .headerLinksContainer a {
     display: none;
   }
@@ -180,10 +194,18 @@ h1{
     flex-direction: column;
     align-items: flex-start;
   }
+  
+  #input{
+  display: none;
+}
+
+#buttonPortion2 {
+  display: none;
+}
 
 }
 
-@media (min-width: 701px) {
+@media (min-width: 769px) {
   #sideMenu {
     display: none;
   }
@@ -192,6 +214,13 @@ h1{
     display: none;
   }
 
+#portionSelect{
+  display: none;
+}
+
+#buttonPortion {
+  display: none;
+}
 
 }
 
@@ -216,7 +245,7 @@ h1 {
 }
 
 #imgFood {
-  background-image: url('./assets/img/haehnchenpfanne-mit-buntem-gemuese.jpg');
+  background-image: url('./assets/img/haehnchenpfanne-und-gemuese-auf-holztisch.jpg');
   background-size: cover;
   background-position: center;
   height: 220px;
@@ -276,8 +305,34 @@ h1 {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-color: rgb(228, 230, 231);
-  padding: 5px 30px 5px 0;
+  padding: 5px 30px 5px 30px;
   font-size: 12px;
+}
+
+#portionSelect {
+  width: 97px;
+  margin: 0;
+  border: solid 1px;
+  border-color: rgb(228, 230, 231);
+  padding: 5px 30px 4px 30px;
+  font-size: 12px;
+}
+
+.inputNeededGrey{
+  border: none;
+  width: 70px;
+  background-color: rgb(228, 230, 231);
+  display :flex ;
+  justify-content:center ;
+  text-align :left ;
+}
+
+.inputNeededWhite{
+  border:none;
+  width: 70px;
+  display :flex ;
+  justify-content:center ;
+  text-align :left ;
 }
 
 #buttonPortion {
@@ -298,6 +353,22 @@ h1 {
 
 #buttonPortion:active{
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#buttonPortion2 {
+  margin: 0;
+  border-left: solid 1px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: rgb(228, 230, 231);
+  padding: 5px 30px;
+  font-size: 12px;
+  padding-block: 6px;
+  padding-inline: 22px;
+  border: none;
+  background-color: #008001;
+  cursor: pointer;
+  color: white;
 }
 
 .ingredientsGrey {

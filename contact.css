@@ -94,7 +94,7 @@ body {
   right: 0px;
   width: 138px;
   border-radius: 10px;
-  line-height: 24px;
+  line-height: 20px;
   height: auto;
   padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.4);
@@ -123,7 +123,7 @@ body {
   border-color: #008001;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .headerLinksContainer a {
     display: none;
   }
@@ -134,7 +134,7 @@ body {
 
 }
 
-@media (min-width: 701px) {
+@media (min-width: 769px) {
   #sideMenu {
     display: none;
   }
@@ -156,7 +156,7 @@ body {
   height: 460px;
   background-color: #DCDCDC;
   border-radius: 10px;
-  margin: 150px 0 0 0;
+  margin: 100px 0 0 0;
 }
 
 #form {

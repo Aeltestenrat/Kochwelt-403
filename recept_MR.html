@@ -25,7 +25,7 @@
             <div class="headerLinksContainer">
                 <button id="menuToggleButton" onclick="toggleMenu()">...</button>
                 <a href="./index.html">Start</a>
-                <a href="">Rezept des Tages</a>
+                <a href="./recept_MR.html">Rezept des Tages</a>
                 <a href="./contact.html">Kontakt</a>
                 <a href="./impressum.html">Impressum</a>
             </div>
@@ -37,7 +37,7 @@
     <nav id="sideMenu" class="sideMenuShow sideMenuHide">
         <ul>
             <li><a href="./index.html">Start</a></li>
-            <li><a href="#">Rezept des Tages</a></li>
+            <li><a href="./recept_MR.html">Rezept des Tages</a></li>
             <li><a href="./contact.html">Kontakt</a></li>
             <li><a href="./impressum.html">Impressum</a></li>
         </ul>
@@ -57,23 +57,54 @@
             </div>
         </div>
         <div id="borderLine">
-
         </div>
         <!--<div>-->
         <div class="labelMainContainer">
             <div class="labelContainer">
                 <label for="input">Zutaten für &nbsp;</label>
-                <input type="number" id="input" max="10" min="1" value="1" required>
-                <button id="buttonPortion">Portionen</button>
+                
+                
+                <input type="number" id="input" max="6666" min="0" value="1" required> 
+                
+                   <select id="portionSelect" class="portionSelectWidth" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+    </select>
+                
+                
+                <button id="buttonPortion2" onclick = "equalIngredients2()">Portionen</button>
+                
+                <button id="buttonPortion" onclick = "equalIngredients()">Portionen</button>
             </div>
         </div>
-        <div class="ingredientsGrey">150 g Hähnchenbrustfilet</div>
-        <div class="ingredientsWhite">Paprika (rot oder gelb) - 1/2 Stück</div>
-        <div class="ingredientsGrey">Zucchini 1/2 Stück</div>
-        <div class="ingredientsWhite">Tomaten 1-2 Stück (je nach Größe)</div>
-        <div class="ingredientsGrey">Zwiebel 1 Kleine</div>
-        <div class="ingredientsWhite">Olivenöi 1 Esslöffel</div>
-        <div class="ingredientsGrey">Kräuter der Provence 1/2 Teelöffel (oder nach geschmack)</div>
+        <div class="ingredientsGrey"><input class="inputNeededGrey"type="number" value="150.0"readonly></input> g Hähnchenbrustfilet</div>
+        <div class="ingredientsWhite"><input class="inputNeededWhite"type="number" value="0.5"readonly></input> Paprika (rot oder gelb)</div>
+        <div class="ingredientsGrey"><input class="inputNeededGrey"type="number" value="0.5"readonly></input> Zucchini </div>
+        <div class="ingredientsWhite"><input class="inputNeededWhite"type="number" value="10.0"readonly></input> g Erbsen</div>
+        <div class="ingredientsGrey"><input class="inputNeededGrey"type="number" value="1.0"readonly></input> große Tomate(n)</div>
+        <div class="ingredientsWhite"><input class="inputNeededWhite"type="number" value="1.0"readonly></input> Mohrrübe</div>
+        <div class="ingredientsGrey"><input class="inputNeededGrey"type="number" value="1.0"readonly></input> kleine Zwiebel</div>
+        <div class="ingredientsWhite"><input class="inputNeededWhite"type="number" value="1.0"readonly></input> EL Olivenöl</div>
+        <div class="ingredientsGrey"><input class="inputNeededGrey"type="number" value="0.5"readonly></input> TL Kräuter der Provence (oder nach Geschmack)</div>
         <h2>Zubereitung</h2>
 
         <div id="accessoriesContainer">
@@ -89,12 +120,12 @@
         <div class="preparation">
             <ol>
                 <li>Hähnchenbrust in kleine Stücke schneiden.</li><br>
-                <li>Paprika, Zucchini und Tomaten ebenfalls in kleine Stücke schneiden.</li><br>
+                <li>Paprika, Zucchini, Mohrrübe und Tomaten ebenfalls in kleine Stücke schneiden.</li><br>
                 <li>Zwiebel schälen und in feine Würfel schneiden.</li><br>
                 <li>In einer Pfanne das Olivenöl erhitzen und die Zwiebel darin anbraten, bis sie glasig wird.</li>
                 <br>
                 <li>Die Hähnchenbruststücke hinzufügen und rundherum anbraten, bis sie goldbraun sind.</li><br>
-                <li>Die vorbereiteten Gemüse (Paprika, Zucchini, Tomaten) in die Pfanne geben und alles gut
+                <li>Die vorbereiteten Gemüse (Paprika, Zucchini, Mohrrübe, Erbsen, Tomaten) in die Pfanne geben und alles gut
                     vermischen.</li><br>
                 <li>Mit den Kräutern der Provence würzen und bei mittlerer Hitze etwa 5-7 Minuten weiterbraten, bis
                     das Gemüse weich ist.</li><br>
@@ -103,7 +134,7 @@
         </div>
         <h3>Rezept erstellt von</h3>
         <div class="creatorNameContainer">
-            <img src="./assets/img/profile.png" alt="">
+            <img src="./assets/img/ich.jpg" alt="Bild vom Ersteller">
             <p>Marco Rößler</p>
         </div>
     </div>
