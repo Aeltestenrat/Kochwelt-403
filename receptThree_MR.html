@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haferflocken-Bananen-Cookies</title>
+    <link rel="stylesheet" href="receptThree_MR.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&family=Viga&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <div class="headerContainer">
+
+        <div class="headerLogoContainer">
+            <img id="logoKochwelt" src="./assets/img/logo.png" alt="Logo von Kochwelt">
+        </div>
+        <div class="headerLinksMainContainer">
+            <div class="headerLinksContainer">
+                <button id="menuToggleButton" onclick="toggleMenu()">...</button>
+                <a href="./index.html">Start</a>
+                <a href="./recept_MR.html">Rezept des Tages</a>
+                <a href="./contact.html">Kontakt</a>
+                <a href="./impressum.html">Impressum</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav id="sideMenu" class="sideMenuShow sideMenuHide">
+        <ul>
+            <li><a href="./index.html">Start</a></li>
+            <li><a href="./recept_MR.html">Rezept des Tages</a></li>
+            <li><a href="./contact.html">Kontakt</a></li>
+            <li><a href="./impressum.html">Impressum</a></li>
+        </ul>
+    </nav>
+    <div class="receptContainer">
+        <h1>Haferflocken-Bananen-Cookies</h1>
+        <div id="imgFood"></div>
+        <div id="iconsContainer">
+            <div class="icons"><img src="./assets/icons/clock-regular.svg" alt="Uhrensymbol">
+                <p>&nbsp;&nbsp;5 Min.</p>
+            </div>
+            <div class="icons"><img src="./assets/icons/brain-solid.svg" alt="Gehirnsymbol">
+                <p>&nbsp;&nbsp;simpel</p>
+            </div>
+            <div class="icons"><img src="./assets/icons/calendar-alt-regular.svg" alt="Kalendersymbol">
+                <p>&nbsp;&nbsp;05.12.2024</p>
+            </div>
+        </div>
+        <div id="borderLine">
+        </div>
+        <div class="labelMainContainer">
+            <div class="labelContainer">
+                <label for="input">Zutaten für &nbsp;</label>
+                <input type="number" id="input" max="10" min="1" value="1" required>
+
+                <select id="portionSelect" class="portionSelectWidth" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                </select>
+
+                <button id="buttonPortion2" onclick="equalIngredients2()">Portionen</button>
+
+                <button id="buttonPortion" onclick="equalIngredients()">Portionen</button>
+            </div>
+        </div>
+        <div class="ingredientsGrey"><input class="inputNeededGrey"type="number" value="0.5"readonly></input> reife Banane</div>
+        <div class="ingredientsWhite"><input class="inputNeededWhite"type="number" value="50.0"readonly></input> g Haferflocken</div>
+        <div class="ingredientsGrey"><input class="inputNeededGrey"type="number" value="1.0"readonly></input> TL Honig (oder Ahornsirup)</div>
+        <div class="ingredientsWhite"><input class="inputNeededWhite"type="number" value="1.0"readonly></input>  Prise(n) Zimt (optional)</div>
+        <div class="ingredientsGrey"><input class="inputNeededGrey"type="number" value="1.0"readonly></input> kleine Prise Salz</div>
+        <h2>Zubereitung</h2>
+
+        <div id="accessoriesContainer">
+            <div class="accessories">
+                <img src="./assets/icons/clock-regular.svg" alt="Uhrensymbol">
+                <p>&nbsp;&nbsp;ca. 5 Minuten</p>
+            </div>
+            <div class="accessories">
+                <img src="./assets/icons/clock-regular.svg" alt="Uhrensymbol">
+                <p>&nbsp;&nbsp;Gesamtzeitzeit ca. 20 Minuten</p>
+            </div>
+        </div>
+        <div class="preparation">
+            <ol>
+                <li>Auf 180 °C (Ober-/Unterhitze) vorheizen. Ein kleines Backblech mit Backpapier belegen.</li><br>
+                <li>Die Banane in einer kleinen Schüssel mit einer Gabel zerdrücken.</li><br>
+                <li>Haferflocken, Honig, Zimt und Salz dazugeben und gut vermischen.</li><br>
+                <li>Den Teig in 3-4 kleine Häufchen auf das Backpapier setzen und leicht flachdrücken.</li>
+                <br>
+                <li>Für 12-15 Minuten backen, bis die Cookies goldbraun sind.</li><br>
+                <li>Abkühlen lassen und genießen.</li><br>
+            </ol>
+        </div>
+        <h3>Rezept erstellt von</h3>
+        <div class="creatorNameContainer">
+            <img src="./assets/img/ich.jpg" alt="Bild vom Ersteller">
+            <p>Marco Rößler</p>
+        </div>
+    </div>
+</body>
+<footer>
+
+</footer>
+
+</html>
+<script src="./receptThree_MR.js"></script>

@@ -242,7 +242,7 @@ h1 {
 }
 
 .sectionTwoImgLeft {
-  background-image: url('./assets/img/croissant.jpg');
+  background-image: url('./assets/img/tomaten-basilikum-pasta.jpg');
   background-position: center;
   background-size: cover;
   width: 200px;
@@ -251,7 +251,7 @@ h1 {
 }
 
 .sectionTwoImgRight {
-  background-image: url('./assets/img/croissant.jpg');
+  background-image: url('./assets/img/Bananen_Haferflockenkekse.jpg');
   background-position: center;
   background-size: cover;
   width: 200px;

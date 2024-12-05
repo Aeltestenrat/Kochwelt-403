@@ -65,14 +65,18 @@
         <div class="sectionTwoImgContainer">
 
             <div class="sectionTwoImgLeftContainer">
-                <div class="sectionTwoImgLeft">
-                </div>
+                <a href="./receptTwo_MR.html">
+                    <div class="sectionTwoImgLeft">
+                    </div>
+                </a>
                 <p class="sectionTwoImgLeftText">Rezept von Halid</p>
             </div>
 
             <div class="sectionTwoImgRightContainer">
-                <div class="sectionTwoImgRight">
-                </div>
+                <a href="./receptThree_MR.html">
+                    <div class="sectionTwoImgRight">
+                    </div>
+                </a>
                 <p class="sectionTwoImgRightText">Rezept von Sami</p>
             </div>
 
