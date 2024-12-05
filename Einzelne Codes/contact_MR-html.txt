@@ -1,0 +1,16 @@
+<div id="contactFormContainer">
+        <form id="form" onsubmit="sendMail(event)">
+            <p id="formHeader">Kontaktiere uns</p>
+            <label id="labelName" for="name">Dein Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label id="labelEmail" for="email">Deine E-Mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label id="labelMessage" for="message">Deine Nachricht:</label><br>
+            <textarea id="textArea" name="message" rows="8" cols="50" required></textarea><br><br>
+            <div id="formButtonContainer">
+                <button id="buttons" type="submit" value="Absenden">Abschicken</button>
+            </div>
+        </form>
+    </div>

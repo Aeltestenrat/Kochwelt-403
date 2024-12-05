@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochwelt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&family=Viga&display=swap"
+        rel="stylesheet">
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e0626584-475c-4f11-abe0-ec3c88106f43"
+        type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div class="headerContainer">
+
+        <div class="headerLogoContainer">
+            <img id="logoKochwelt" src="./assets/img/logo.png" alt="Logo von Kochwelt">
+        </div>
+        <div class="headerLinksMainContainer">
+            <div class="headerLinksContainer">
+                <button id="menuToggleButton" onclick="toggleMenu()">...</button>
+                <a href="./index.html">Start</a>
+                <a href="./recept_MR.html">Rezept des Tages</a>
+                <a href="./contact.html">Kontakt</a>
+                <a href="./impressum.html">Impressum</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav id="sideMenu" class="sideMenuShow sideMenuHide">
+        <ul>
+            <li><a href="./index.html">Start</a></li>
+            <li><a href="./recept_MR.html">Rezept des Tages</a></li>
+            <li><a href="./contact.html">Kontakt</a></li>
+            <li><a href="./impressum.html">Impressum</a></li>
+        </ul>
+    </nav>
+
+    <div class="sectionOne">
+        <div class="aot sectionOneLeft">
+
+        </div>
+        <div class="sectionOneRight">
+            <h1>Hähnchen-Gemüse-Pfanne<br>mit Kräutern der Provence</h1>
+            <p class="sectionOneRightText">Leckere Hähnchen-Gemüse-Pfanne in nur 20 Minuten zubereitet!
+                Ein schnelles und gesundes Gericht, das ideal für die ganze Familie ist. Frische Zutaten und saftiges
+                Hähnchenfilet machen diese Pfanne zu einem echten Highlight auf deinem Tisch.
+            </p>
+            <a href="./recept_MR.html"><button id="buttons">Rezept öffnen</button></a>
+        </div>
+    </div>
+
+    <div class=sectionTwoMainContainer>
+        <h2 class="h2SectionTwo">Lust auf was Neues?</h2>
+
+        <div class="sectionTwoImgContainer">
+
+            <div class="sectionTwoImgLeftContainer">
+                <div class="sectionTwoImgLeft">
+                </div>
+                <p class="sectionTwoImgLeftText">Rezept von Halid</p>
+            </div>
+
+            <div class="sectionTwoImgRightContainer">
+                <div class="sectionTwoImgRight">
+                </div>
+                <p class="sectionTwoImgRightText">Rezept von Sami</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h2 class="h2SectionThree">Pfanne vs. Wok - Was ist besser?</h2>
+    <div class="sectionThree">
+        <p class="sectionThreeP">
+            Ein Wok eignet sich hervorragend für schnelles und gleichmäßiges Garen bei hoher Hitze, ideal für asiatische
+            Gerichte wie Stir-Frys. Eine Pfanne hingegen punktet mit Vielseitigkeit und kann für alles von Braten bis
+            Schmoren verwendet werden. Beide Küchenutensilien haben ihre Stärken und ergänzen sich perfekt je nach
+            Rezept und Zubereitungsmethode.</p>
+        <img src="./assets/img/wok.jpg" alt="Ein Wok" class="sectionThreeImgWok">
+    </div>
+    </div>
+
+</body>
+<footer>
+
+</footer>
+
+</html>
+<script src="./index.js"></script>

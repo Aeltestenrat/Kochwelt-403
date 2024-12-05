@@ -1,0 +1,63 @@
+ <div class="receptContainer">
+        <h1>Hähnchen-Gemüse-Pfanne mit Kräutern der Provence</h1>
+        <div id="imgFood"></div>
+        <div id="iconsContainer">
+            <div class="icons"><img src="./assets/icons/clock-regular.svg" alt="Uhrensymbol">
+                <p>&nbsp;&nbsp;10 Min.</p>
+            </div>
+            <div class="icons"><img src="./assets/icons/brain-solid.svg" alt="Gehirnsymbol">
+                <p>&nbsp;&nbsp;simpel</p>
+            </div>
+            <div class="icons"><img src="./assets/icons/calendar-alt-regular.svg" alt="Kalendersymbol">
+                <p>&nbsp;&nbsp;29.11.2024</p>
+            </div>
+        </div>
+        <div id="borderLine">
+        </div>
+        <div class="labelMainContainer">
+            <div class="labelContainer">
+                <label for="input">Zutaten für &nbsp;</label>
+                <input type="number" id="input" max="10" min="1" value="1" required>
+                <button id="buttonPortion">Portionen</button>
+            </div>
+        </div>
+        <div id="ingredients1" class="ingredientsGrey">150 g Hähnchenbrustfilet</div>
+        <div id="ingredients2" class="ingredientsWhite">0.5 Paprika (rot oder gelb)</div>
+        <div id="ingredients3" class="ingredientsGrey">0.5 Zucchini </div>
+        <div id="ingredients4" class="ingredientsWhite">1 große Tomate(n)</div>
+        <div id="ingredients5" class="ingredientsGrey">1 kleine Zwiebel</div>
+        <div id="ingredients6" class="ingredientsWhite">1 EL Olivenöl</div>
+        <div id="ingredients7" class="ingredientsGrey">0.5 TL Kräuter der Provence (oder nach Geschmack)</div>
+        <h2>Zubereitung</h2>
+
+        <div id="accessoriesContainer">
+            <div class="accessories">
+                <img src="./assets/icons/clock-regular.svg" alt="Uhrensymbol">
+                <p>&nbsp;&nbsp;ca. 10 Minuten</p>
+            </div>
+            <div class="accessories">
+                <img src="./assets/icons/clock-regular.svg" alt="Uhrensymbol">
+                <p>&nbsp;&nbsp;Gesamtzeitzeit ca. 20 Minuten</p>
+            </div>
+        </div>
+        <div class="preparation">
+            <ol>
+                <li>Hähnchenbrust in kleine Stücke schneiden.</li><br>
+                <li>Paprika, Zucchini und Tomaten ebenfalls in kleine Stücke schneiden.</li><br>
+                <li>Zwiebel schälen und in feine Würfel schneiden.</li><br>
+                <li>In einer Pfanne das Olivenöl erhitzen und die Zwiebel darin anbraten, bis sie glasig wird.</li>
+                <br>
+                <li>Die Hähnchenbruststücke hinzufügen und rundherum anbraten, bis sie goldbraun sind.</li><br>
+                <li>Die vorbereiteten Gemüse (Paprika, Zucchini, Tomaten) in die Pfanne geben und alles gut
+                    vermischen.</li><br>
+                <li>Mit den Kräutern der Provence würzen und bei mittlerer Hitze etwa 5-7 Minuten weiterbraten, bis
+                    das Gemüse weich ist.</li><br>
+                <li>Nach Belieben mit Salz und Pfeffer abschmecken.</li>
+            </ol>
+        </div>
+        <h3>Rezept erstellt von</h3>
+        <div class="creatorNameContainer">
+            <img src="./assets/img/ich.jpg" alt="Bild vom Ersteller">
+            <p>Marco Rößler</p>
+        </div>
+    </div>

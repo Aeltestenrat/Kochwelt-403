@@ -1,0 +1,25 @@
+<div class="section1" style="margin-left:auto; width:90%; margin-top: 35px;">
+
+    <img class="section1croissant" src="./croissant.jpg">
+    <div>
+        <div class="boldtitle">Französische Croissants</div>
+        <div class="description">Schmackhafte Croissants können auch zu Hause sehr einfach gebacken werden.Mit ca.
+            30 Minuten Aufwand kannst du ein wundervolles Frühstück zaubern.</div>
+        <div class="button">Rezept öffnen</div>
+    </div>
+</div>
+<div class="section2">
+    <p class="section2text">Lust auf was Neues?</p>
+    <div class="section2images">
+        <div><img class="section2croissant" src="./croissant.jpg"><p class="section2text" style="font-size: 12px; margin-top: 0px;">Frische Croissants</p></div>
+        <div><img class="section2croissant" src="./croissant.jpg"><p class="section2text" style="font-size: 12px; margin-top: 0px;">Frische Croissants</p></div>
+        <div><img class="section2croissant" src="./croissant.jpg"><p class="section2text" style="font-size: 12px; margin-top: 0px;">Frische Croissants</p></div>
+    </div>
+</div>
+<div class="section3">
+    <div><p class="section2text">Pfanne vs. Wok - Was ist besser?</p></div> <!--Habe die gleiche klasse verwendet wie im zweite sektion um code zu sparren und sauber zu halten.-->
+    <div class="section3wok">
+    <div><p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consectetur officia, nostrum ratione, sunt laboriosam illo sint atque reprehenderit sapiente hic architecto animi? Accusantium sapiente nobis temporibus ipsum rerum architecto?</p></div>
+    <div><img class="wok" src="./wok.jpg"></div>
+    </div>
+</div>

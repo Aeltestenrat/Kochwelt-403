@@ -1,0 +1,3 @@
+    <div id="textBox">
+        <p id="text">Ihre Nachricht wurde erfolgreich übermittelt!</p>
+    </div>
