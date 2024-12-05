@@ -123,6 +123,8 @@ body {
   border-color: #008001;
 }
 
+
+
 @media (max-width: 768px) {
   .headerLinksContainer a {
     display: none;
@@ -143,3 +145,407 @@ body {
     display: none;
   }
 }
+
+
+
+/* --------------------------SECTION ONE---------------------------------------- */
+
+
+.sectionOne{
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 40px;
+margin-top: 100px;
+padding: 0 100px;
+}
+
+.sectionOneLeft{
+width: 500px;
+height: 350px;
+min-width: 270px;
+max-height: 270px;
+margin-left: 100px;
+}
+
+.sectionOneRight{
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+margin-right: 100px;
+}
+
+.sectionOneRightText{
+  font-size: 18px;
+  max-width: 550px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+.aot{
+  background-image: url('./assets/img/haehnchenpfanne-und-gemuese-auf-holztisch.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+#buttons {
+  border: none;
+  background-color: #008001;
+  color: white;
+  font-size: 12px;
+  padding: 5px 28px;
+  cursor: pointer;
+
+}
+#buttons:active{
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* -----------------SECTION TWO-------------------------------- */
+.sectionTwoMainContainer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(228, 230, 231);
+  flex-direction: column;
+  margin-top: 100px;
+}
+.h2SectionTwo{
+text-align: center;
+margin: 0px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.sectionTwoImgContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+@media(min-width: 1920px) and (max-width:5800px){
+  .sectionTwoImgContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 200px;
+  }
+}
+
+.sectionTwoImgLeft {
+  background-image: url('./assets/img/croissant.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.sectionTwoImgRight {
+  background-image: url('./assets/img/croissant.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.sectionTwoImgLeftText {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 100px;
+}
+
+.sectionTwoImgRightText {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 100px;
+}
+
+
+/* -----------------SECTION THREE-------------------------------- */
+.sectionThree{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+}
+
+.h2SectionThree{
+margin: 0px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.sectionThreeP{
+  font-size: 18px;
+  max-width: 700px;
+  padding-left: 100px;
+}
+
+.sectionThreeImgWok{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 100px;
+  margin-bottom: 130px;
+}
+
+
+/* -------------------------------------FOOTER------------------------------------------- */
+
+footer {
+
+  background-color: rgb(64, 59, 59);
+  height: 300px;
+  width: 100%;
+  border-bottom: solid 10px white;
+}
+
+/* ----------------------------------@Media------------------------------------------------------ */
+
+
+@media(max-width:1040px){
+  h1{
+    font-size: 24px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+}
+
+@media(max-width:842px){
+  h1{
+    font-size: 22px;
+  }
+  h2{
+    font-size: 19px;
+  }
+
+  .sectionOneRightText{
+    font-size: 16px;
+  }
+  .sectionThreeP{
+    font-size: 16px;
+  }
+}
+
+
+@media(max-width:800px){
+  h1{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 17px;
+  }
+
+  .sectionOneLeft{
+    margin-left: 50px;
+    }
+    
+    .sectionOneRight{
+    margin-right: 0px;
+    }
+  
+  
+}
+
+@media(max-width :768px){
+  
+.sectionOne{
+  flex-direction :column ;
+  align-items :center ;
+}
+
+.sectionOneLeft{
+  margin: 0;
+}
+
+.sectionOneRight{
+  align-items :center ;
+}
+
+.sectionOneRightText{
+  text-align:center ;
+}
+}
+
+
+@media(max-width:700px){
+
+
+.sectionOneRightText {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  .sectionTwoImgRight, .sectionTwoImgLeft{
+    width: 200px;
+    height: 200px;
+  }
+
+
+.sectionThree{
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2SectionThree {
+  margin :0;
+}
+
+.sectionThreeP{
+  padding: 0 20px;
+  text-align: center;
+}
+  .sectionThreeImgWok{
+    width: 300px;
+    height: 300px;
+    margin-right: 0px;
+  }
+
+  
+  footer{
+      height: 200px
+  }
+}
+
+@media(max-width:671px){
+  
+    .sectionOneLeft{
+      width: 450px;
+  height: 300px;
+  min-width: 200px;
+  max-height: 200px;
+    }
+
+    .sectionOne{
+      gap: 15px;
+    }
+
+.sectionTwoLeftContainer{
+  padding-left: 50px;
+}
+.sectionTwoRightContainer{
+  padding-right: 50px;
+}
+
+.sectionThree{
+  gap: 40px;
+}
+}
+
+@media(max-width:524px){
+  h1{
+    font-size: 20px;
+  }
+  .sectionOneRightText{
+    font-size: 16px;
+  }
+
+  .sectionOneLeft{
+    width: 300px;
+height: 150px;
+min-width: 150px;
+max-height: 150px;
+margin-left: 10px;
+  }
+
+  .sectionTwoImgRight, .sectionTwoImgLeft{
+    width: 120px;
+    height: 120px;
+  }
+
+  .sectionTwoLeftContainer{
+    padding-left: 20px;
+  }
+  .sectionTwoRightContainer{
+    padding-right: 20px;
+  }
+
+  .sectionThreeImgWok{
+    width: 300px;
+    height: 300px;
+  }
+  .sectionThreeP{
+    padding-left: 30px;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
+
+@media(max-width:457px){
+  h1{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+  .sectionOneRightText{
+    font-size: 16px;
+  }
+  .sectionThreeImgWok{
+    width: 250px;
+    height: 250px;
+  }
+  .sectionThreeP{
+    padding-right: 20px;
+    font-size: 16px;
+  }
+}
+
+@media(max-width:431px){
+  h1{
+    font-size: 20px;
+  }
+
+  .sectionOneRightText{
+    font-size: 16px;
+  }
+  .sectionOneLeft{
+    width: 250px;
+height: 150px;
+min-width: 150px;
+max-height: 150px;
+margin-left: 5px;
+  }
+}
+
+@media(max-width:400px){
+
+  .headerLogoContainer {
+    padding-left: 20px;
+  }
+  h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  h2{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .sectionOneRightText{
+    font-size: 16px;
+  }
+  .sectionOneLeft{
+    width: 200px;
+height: 150px;
+  }
+
+    .sectionThreeP{
+      padding-right: 10px;
+      font-size: 16px;
+    }
+}
+
+
