@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: black;
   font-size: 16px;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -64,7 +65,7 @@ body {
 
 
 .headerLinksContainer a {
-  color: black;
+  color:  rgb(64, 59, 59);
   cursor: pointer;
   text-decoration: none;
 }
@@ -72,6 +73,11 @@ body {
 .headerLinksContainer a:hover {
   border-bottom: solid 2px;
   border-color: #008001;
+}
+
+.headerLinksContainer a:hover {
+
+  color: #008001;
 }
 
 
@@ -97,7 +103,7 @@ body {
   line-height: 20px;
   height: auto;
   padding: 10px 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(239, 239, 239);
   transition: all 0.5s;
 
 }
@@ -109,7 +115,13 @@ body {
 
 .sideMenuShow a {
   text-decoration: none;
-  color: white;
+  color: black;
+}
+
+.sideMenuShow a:hover {
+  color: #008001;
+  border-bottom: solid 2px;
+  border-color: #008001;
 }
 
 .sideMenuShow ul {
@@ -118,9 +130,13 @@ body {
   margin: 0;
 }
 
-.sideMenuShow li a:hover {
+.headerLinksContainer a:hover {
   border-bottom: solid 2px;
   border-color: #008001;
+}
+
+.headerLinksContainer a:hover {
+  color: #008001;
 }
 
 
@@ -214,7 +230,7 @@ h1 {
 .sectionTwoMainContainer {
   display: flex;
   width: 100%;
-  background-color: rgb(228, 230, 231);
+  background-color: rgb(239, 239, 239);
   flex-direction: column;
   margin-top: 100px;
 }
