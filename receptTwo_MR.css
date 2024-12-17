@@ -45,6 +45,7 @@ body {
 #logoKochwelt {
   height: 50px;
   padding-left: 20px;
+  cursor: pointer;
 }
 
 .headerLinksMainContainer {
@@ -363,7 +364,7 @@ h1 {
 }
 
 #buttonPortion:active{
-  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
 #buttonPortion2 {
@@ -380,6 +381,9 @@ h1 {
   background-color: #008001;
   cursor: pointer;
   color: white;
+}
+#buttonPortion2:active{
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
 .ingredientsGrey {
@@ -445,9 +449,88 @@ gap: 40px;
 }
 
 footer {
-
-  background-color: rgb(64, 59, 59);
-  height: 300px;
+display: flex;
+  background-color: rgb(35, 35, 35);
+  height: 150px;
   width: 100%;
-  border-bottom: solid 10px white;
+  justify-content: center;
+  align-items: center;
+
+}
+.footerLogoContainer{
+width: 100%;
+display: flex;
+justify-content: center;
+padding-left: 20px;
+}
+
+.footerLogo {
+height: 50px;
+cursor: pointer;
+filter: invert();
+}
+
+.footerLogoSmall{
+  display: none;
+}
+
+.footerImgContainer{
+  width: 100%;
+display: flex;
+justify-content: center;
+gap: 20px;
+padding-right: 20px;
+}
+
+.footerImg {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.footerImg:hover{
+  box-shadow: 0px 0px 25px 0px rgb(255, 255, 255);
+}
+@media(max-width:700px){
+
+#contactFormContainer{
+  margin: 100px 0 116px 0;
+}
+
+  .footerLogo {
+display: none;
+    }
+
+  .footerLogoSmall{
+    display: flex;
+height: 40px;
+cursor: pointer;
+filter: invert(100%);
+    }
+    .footerLogoSmall:hover{
+      filter: invert(100%) brightness(1.5);
+      box-shadow: 0px 0px 25px 0px black;
+    }
+
+  .footerImg {
+    height: 40px;
+    width: 90px;
+  }
+}
+@media(max-width:560px){
+  .footerImg {
+    height: 30px;
+    width: 80px;
+  }
+}
+
+@media(max-width:500px){
+  .footerImgContainer {
+gap: 10px;
+flex-direction: column;
+  }
+  .footerImgContainerExtra{
+    display: flex;
+    justify-content: center;
+  }
 }

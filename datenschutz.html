@@ -4,15 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
-    <link rel="stylesheet" href="contact.css">
+    <title>Datenschutz</title>
+    <link rel="stylesheet" href="datenschutz.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&family=Viga&display=swap"
-        rel="stylesheet">
-
 
 </head>
 
@@ -26,8 +20,8 @@
             <div class="headerLinksContainer">
                 <button id="menuToggleButton" onclick="toggleMenu()">...</button>
                 <a href="./index.html">Start</a>
-                <a href="./recept_MR.html">Rezept des Tages</a>
-                <a href="./Fertig/contact.html">Kontakt</a>
+                <a href="./receptOfTheDay.css">Rezept des Tages</a>
+                <a href="./contact.html">Kontakt</a>
                 <a href="./impressum.html">Impressum</a>
             </div>
         </div>
@@ -38,37 +32,17 @@
     <nav id="sideMenu" class="sideMenuShow sideMenuHide">
         <ul>
             <li><a href="./index.html">Start</a></li>
-            <li><a href="./recept_MR.html">Rezept des Tages</a></li>
+            <li><a href="./receptOfTheDay.css">Rezept des Tages</a></li>
             <li><a href="./contact.html">Kontakt</a></li>
             <li><a href="./impressum.html">Impressum</a></li>
         </ul>
     </nav>
-
-
-
-
-    <div id="contactFormContainer">
-        <form id="form" onsubmit="sendMail(event)">
-            <p id="formHeader">Kontaktiere uns</p>
-            <label id="labelName" for="name">Dein Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-
-            <label id="labelEmail" for="email">Deine E-Mail:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label id="labelMessage" for="message">Deine Nachricht:</label><br>
-            <textarea id="textArea" name="message" rows="8" cols="50" required></textarea><br><br>
-            <div id="formButtonContainer">
-                <button id="buttons" type="submit" value="Absenden">Abschicken</button>
-            </div>
-        </form>
-    </div>
-
+   
 </body>
 <footer>
 <div class="footerLogoContainer">
 <a href="./index.html"><img class="footerLogo" src="./assets/img/logo.png" alt="Kochweltlogo"></a>
-<a href="./index.html"><img class="footerLogoSmall" src="./assets/img/logo_small.png" alt=""></a>
+<a href=""><img class="footerLogoSmall" src="./assets/img/logo_small.png" alt=""></a>
 </div>
 <div class="footerImgContainer">
     <div class="footerImgContainerExtra">
@@ -83,5 +57,4 @@
 </div>
 </footer>
 </html>
-
-<script src="./contact.js"></script>
+<script src="./menu.js"></script>

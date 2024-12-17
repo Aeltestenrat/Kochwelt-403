@@ -45,6 +45,7 @@ body {
 
 #logoKochwelt {
   height: 50px;
+  cursor: pointer;
 }
 
 .headerLinksMainContainer {
@@ -65,7 +66,7 @@ body {
 
 
 .headerLinksContainer a {
-  color:  rgb(64, 59, 59);
+  color: rgb(64, 59, 59);
   cursor: pointer;
   text-decoration: none;
 }
@@ -257,6 +258,8 @@ h1 {
   }
 }
 
+
+
 .sectionTwoImgLeft {
   background-image: url('./assets/img/tomaten-basilikum-pasta.jpg');
   background-position: center;
@@ -265,6 +268,19 @@ h1 {
   height: 200px;
   border-radius: 10px;
 }
+
+
+
+.sectionTwoImgMidt {
+  background-image: url('./assets/img/Tomate-Mozzarella.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+
 
 .sectionTwoImgRight {
   background-image: url('./assets/img/Bananen_Haferflockenkekse.jpg');
@@ -275,16 +291,11 @@ h1 {
   border-radius: 10px;
 }
 
-.sectionTwoImgLeftText {
+.sectionTwoImgText {
   text-align: center;
   margin-bottom: 0px;
   padding-bottom: 100px;
-}
-
-.sectionTwoImgRightText {
-  text-align: center;
-  margin-bottom: 0px;
-  padding-bottom: 100px;
+  width: 200px;
 }
 
 
@@ -319,13 +330,95 @@ h1 {
 
 /* -------------------------------------FOOTER------------------------------------------- */
 
-footer {
 
-  background-color: rgb(64, 59, 59);
-  height: 300px;
+
+footer {
+display: flex;
+  background-color: rgb(35, 35, 35);
+  height: 150px;
   width: 100%;
-  border-bottom: solid 10px white;
+  justify-content: center;
+  align-items: center;
+
 }
+.footerLogoContainer{
+width: 100%;
+display: flex;
+justify-content: center;
+padding-left: 20px;
+}
+
+.footerLogo {
+height: 50px;
+cursor: pointer;
+filter: invert();
+}
+
+.footerLogoSmall{
+  display: none;
+}
+
+.footerImgContainer{
+  width: 100%;
+display: flex;
+justify-content: center;
+gap: 20px;
+padding-right: 20px;
+}
+
+.footerImg {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.footerImg:hover{
+  box-shadow: 0px 0px 25px 0px rgb(255, 255, 255);
+}
+@media(max-width:700px){
+
+#contactFormContainer{
+  margin: 100px 0 116px 0;
+}
+
+  .footerLogo {
+display: none;
+    }
+
+  .footerLogoSmall{
+    display: flex;
+height: 40px;
+cursor: pointer;
+filter: invert(100%);
+    }
+    .footerLogoSmall:hover{
+      filter: invert(100%) brightness(1.5);
+      box-shadow: 0px 0px 25px 0px black;
+    }
+
+  .footerImg {
+    height: 40px;
+    width: 90px;
+  }
+}
+@media(max-width:560px){
+  .footerImg {
+    height: 30px;
+    width: 80px;
+  }
+}
+
+@media(max-width:500px){
+  .footerImgContainer {
+gap: 10px;
+flex-direction: column;
+  }
+  .footerImgContainerExtra{
+    display: flex;
+    justify-content: center;
+  }
+}
+
 
 /* ----------------------------------@Media------------------------------------------------------ */
 
@@ -408,6 +501,15 @@ footer {
     padding-right: 20px;
   }
 
+  .sectionTwoImgContainer{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionTwoImgText{
+    padding-block-end: 50px;
+  }
+
   .sectionTwoImgRight,
   .sectionTwoImgLeft {
     width: 200px;
@@ -485,9 +587,10 @@ footer {
   }
 
   .sectionTwoImgRight,
+  .sectionTwoImgMidt,
   .sectionTwoImgLeft {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
   }
 
   .sectionTwoLeftContainer {
@@ -572,10 +675,6 @@ footer {
     font-size: 16px;
   }
 
-  .sectionOneLeft {
-    width: 200px;
-    height: 150px;
-  }
 
   .sectionThreeP {
     padding-right: 10px;
